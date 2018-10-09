@@ -1,0 +1,37 @@
+group 'neurorehabapp'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile project(':Persistence')
+    compile project(':Controller-Model')
+    compile project(':Persistence-Model')
+    compile project(':Persistence-Mapper')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    //Spring
+    compile group: 'org.springframework', name: 'spring-context', version: '5.0.6.RELEASE'
+    compile group: 'org.springframework', name: 'spring-beans', version: '4.1.6.RELEASE'
+    //Spring data
+    compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '2.0.7.RELEASE'
+    compile group: 'org.springframework.data', name: 'spring-data-commons', version: '2.0.7.RELEASE'
+    //Spring test
+    testCompile 'org.springframework.boot:spring-boot-starter-data-jpa:1.5.2.RELEASE'
+    testCompile 'org.springframework.boot:spring-boot-starter-test:1.5.2.RELEASE'
+    testCompile group: 'mysql', name: 'mysql-connector-java', version: '8.0.11'
+
+    //Hibernate
+    compile group: 'org.hibernate.validator', name: 'hibernate-validator', version: '6.0.10.Final'
+    compile group: 'org.hibernate.validator', name: 'hibernate-validator', version: '6.0.10.Final'
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.3.1.Final'
+    compile group: 'org.glassfish', name: 'javax.el', version: '3.0.1-b10'
+    compile group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.1-api', version: '1.0.2.Final'
+
+}

@@ -1,0 +1,775 @@
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/contributions' doesn't match 'GET /logout
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/contributions' doesn't match 'POST /logout
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/contributions' doesn't match 'PUT /logout
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/contributions' doesn't match 'DELETE /logout
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/contributions' doesn't match 'GET /logout
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/contributions' doesn't match 'POST /logout
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/contributions' doesn't match 'PUT /logout
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/contributions' doesn't match 'DELETE /logout
+2018-07-14 10:38:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:38:35 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:38:35 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:38:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:38:35 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing OPTIONS request for [/neurorehabapp/app/rest/contributions]
+2018-07-14 10:38:35 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing OPTIONS request for [/neurorehabapp/app/rest/contributions]
+2018-07-14 10:38:35 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /app/rest/contributions
+2018-07-14 10:38:35 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /app/rest/contributions
+2018-07-14 10:38:35 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public com.app.neurorehab.controller.model.Response.ContributionResponse.KanbanResponseBody com.app.neurorehab.controller.ContributionController.getAllContributions(com.app.neurorehab.controller.model.Request.ContributionsRequest)]
+2018-07-14 10:38:35 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public com.app.neurorehab.controller.model.Response.ContributionResponse.KanbanResponseBody com.app.neurorehab.controller.ContributionController.getAllContributions(com.app.neurorehab.controller.model.Request.ContributionsRequest)]
+2018-07-14 10:38:35 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'contributionController'
+2018-07-14 10:38:35 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'contributionController'
+2018-07-14 10:38:35 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:38:35 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:38:35 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:38:35 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:38:35 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:38:35 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:38:35 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:38:35 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:38:35 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:38:35 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /app/rest/contributions' doesn't match 'GET /logout
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/app/rest/contributions'; against '/logout'
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /app/rest/contributions' doesn't match 'PUT /logout
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /app/rest/contributions' doesn't match 'DELETE /logout
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:38:37 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:38:37 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing POST request for [/neurorehabapp/app/rest/contributions]
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:38:37 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /app/rest/contributions
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /app/rest/contributions' doesn't match 'GET /logout
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/app/rest/contributions'; against '/logout'
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /app/rest/contributions' doesn't match 'PUT /logout
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /app/rest/contributions' doesn't match 'DELETE /logout
+2018-07-14 10:38:37 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:38:37 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:38:37 DEBUG o.s.security.web.FilterChainProxy - /app/rest/contributions reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:38:37 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing POST request for [/neurorehabapp/app/rest/contributions]
+2018-07-14 10:38:37 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /app/rest/contributions
+2018-07-14 10:38:37 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public com.app.neurorehab.controller.model.Response.ContributionResponse.KanbanResponseBody com.app.neurorehab.controller.ContributionController.getAllContributions(com.app.neurorehab.controller.model.Request.ContributionsRequest)]
+2018-07-14 10:38:37 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'contributionController'
+2018-07-14 10:38:37 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public com.app.neurorehab.controller.model.Response.ContributionResponse.KanbanResponseBody com.app.neurorehab.controller.ContributionController.getAllContributions(com.app.neurorehab.controller.model.Request.ContributionsRequest)]
+2018-07-14 10:38:37 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'contributionController'
+2018-07-14 10:38:37 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.app.neurorehab.controller.model.Request.ContributionsRequest] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:38:37 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.app.neurorehab.controller.model.Request.ContributionsRequest] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:38:37 DEBUG o.s.core.annotation.AnnotationUtils - Failed to meta-introspect annotation class com.sun.proxy.$Proxy220: java.lang.NoSuchMethodException: javax.validation.Valid.value()
+2018-07-14 10:38:37 DEBUG o.s.core.annotation.AnnotationUtils - Failed to meta-introspect annotation class com.sun.proxy.$Proxy220: java.lang.NoSuchMethodException: javax.validation.Valid.value()
+2018-07-14 10:38:37 DEBUG c.a.n.c.ContributionController - Getting all contributions
+2018-07-14 10:38:37 DEBUG c.a.n.c.ContributionController - Getting all contributions
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.app.neurorehab.service.ContributionService.getAllContributionsAsKanban]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.app.neurorehab.service.ContributionService.getAllContributionsAsKanban]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 10:38:37 DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/neurorehab_app_schema?serverTimezone=UTC]
+2018-07-14 10:38:37 DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/neurorehab_app_schema?serverTimezone=UTC]
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1e09fdcd]
+2018-07-14 10:38:37 DEBUG c.a.n.service.ContributionService - Getting all contributions
+2018-07-14 10:38:37 DEBUG c.a.n.p.ContributionPersistenceService - Getting all contributions
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@79eb27a1]
+2018-07-14 10:38:37 DEBUG c.a.n.service.ContributionService - Getting all contributions
+2018-07-14 10:38:37 DEBUG c.a.n.p.ContributionPersistenceService - Getting all contributions
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2018-07-14 10:38:37 DEBUG c.a.n.p.ContributionPersistenceService - Returning all contributions
+2018-07-14 10:38:37 DEBUG c.a.n.p.m.ContributionKanbanPersistenceMapper - Mapping contributions to kanban format..
+2018-07-14 10:38:37 DEBUG c.a.n.p.ContributionPersistenceService - Returning all contributions
+2018-07-14 10:38:37 DEBUG c.a.n.p.m.ContributionKanbanPersistenceMapper - Mapping contributions to kanban format..
+2018-07-14 10:38:37 DEBUG c.a.n.p.m.ContributionKanbanPersistenceMapper - Successfully mapped contributions to kanban data format..
+2018-07-14 10:38:37 DEBUG c.a.n.service.ContributionService - Returning all contributions
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ProfilePersistenceModel#13], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.ProfilePersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.TrainingResultsPersistenceModel#3], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#13], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#26], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#14], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#11], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#4], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#5]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#26], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#26], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#26]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-07-14 10:38:37 DEBUG c.a.n.p.m.ContributionKanbanPersistenceMapper - Successfully mapped contributions to kanban data format..
+2018-07-14 10:38:37 DEBUG c.a.n.service.ContributionService - Returning all contributions
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.ProfilePersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.TrainingResultsPersistenceModel#2], EntityKey[com.app.neurorehab.persistence.model.ProfilePersistenceModel#12], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#25], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#5], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#3], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#12], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#11], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#14]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#25], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#25], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#25]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ProfilePersistenceModel#13], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.ProfilePersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.TrainingResultsPersistenceModel#3], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#13], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#26], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#14], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#11], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#4], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#5]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#26], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#26], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#26]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2018-07-14 10:38:37 DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-07-14 10:38:37 DEBUG c.a.n.c.ContributionController - Returning all contributions
+2018-07-14 10:38:37 DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.ProfilePersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.TrainingResultsPersistenceModel#2], EntityKey[com.app.neurorehab.persistence.model.ProfilePersistenceModel#12], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#25], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#5], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#3], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#12], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#11], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#14]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#25], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#25], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#11], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#25]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2018-07-14 10:38:37 DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-07-14 10:38:37 DEBUG c.a.n.c.ContributionController - Returning all contributions
+2018-07-14 10:38:37 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:38:37 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:38:37 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Written [com.app.neurorehab.controller.model.Response.ContributionResponse.KanbanResponseBody@6b85f436] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:38:37 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:38:37 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:38:37 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:38:37 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:38:37 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Written [com.app.neurorehab.controller.model.Response.ContributionResponse.KanbanResponseBody@4a9106be] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:38:37 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:38:37 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:38:37 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:38:37 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:39:14 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:39:14 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:39:14 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:39:14 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:39:14 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:39:14 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/training/attention' doesn't match 'GET /logout
+2018-07-14 10:39:14 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:39:14 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/training/attention' doesn't match 'POST /logout
+2018-07-14 10:39:14 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:39:14 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/training/attention' doesn't match 'PUT /logout
+2018-07-14 10:39:14 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:39:14 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/training/attention' doesn't match 'DELETE /logout
+2018-07-14 10:39:14 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:39:14 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:39:14 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:39:14 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:39:14 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:39:14 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:39:14 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:39:14 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:39:14 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing OPTIONS request for [/neurorehabapp/app/rest/training/attention]
+2018-07-14 10:39:14 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /app/rest/training/attention
+2018-07-14 10:39:14 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.util.Set<com.app.neurorehab.controller.model.TrainingControllerModel> com.app.neurorehab.controller.TrainingController.getTrainingData(java.lang.String)]
+2018-07-14 10:39:14 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'trainingController'
+2018-07-14 10:39:14 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:39:14 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:39:14 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:39:14 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:39:14 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:39:16 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:39:16 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:39:16 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:39:16 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:39:16 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:39:16 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/app/rest/training/attention'; against '/logout'
+2018-07-14 10:39:16 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:39:16 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /app/rest/training/attention' doesn't match 'POST /logout
+2018-07-14 10:39:16 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:39:16 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /app/rest/training/attention' doesn't match 'PUT /logout
+2018-07-14 10:39:16 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:39:16 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /app/rest/training/attention' doesn't match 'DELETE /logout
+2018-07-14 10:39:16 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:39:16 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:39:16 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:39:16 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:39:16 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:39:16 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:39:16 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:39:16 DEBUG o.s.security.web.FilterChainProxy - /app/rest/training/attention reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:39:16 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing GET request for [/neurorehabapp/app/rest/training/attention]
+2018-07-14 10:39:16 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /app/rest/training/attention
+2018-07-14 10:39:16 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public java.util.Set<com.app.neurorehab.controller.model.TrainingControllerModel> com.app.neurorehab.controller.TrainingController.getTrainingData(java.lang.String)]
+2018-07-14 10:39:16 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'trainingController'
+2018-07-14 10:39:16 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/neurorehabapp/app/rest/training/attention] is: -1
+2018-07-14 10:39:16 DEBUG c.a.n.controller.TrainingController - Finding training for training area: attention
+2018-07-14 10:39:16 DEBUG c.a.n.d.model.DataTypes.TrainingArea - Training value: ATTENTION
+2018-07-14 10:39:16 DEBUG c.a.n.d.model.DataTypes.TrainingArea - Training value: MEMORY
+2018-07-14 10:39:16 DEBUG c.a.n.d.model.DataTypes.TrainingArea - Training value: EXECUTIVE_FUNCTION
+2018-07-14 10:39:16 DEBUG c.a.n.d.model.DataTypes.TrainingArea - Training value: EMPLOYMENT
+2018-07-14 10:39:16 DEBUG c.a.n.d.model.DataTypes.TrainingArea - Training value: SPEED
+2018-07-14 10:39:16 DEBUG c.a.n.d.model.DataTypes.TrainingArea - Training value: COMMUNICATION
+2018-07-14 10:39:16 DEBUG c.a.n.service.TrainingService - Finding training by area: ATTENTION
+2018-07-14 10:39:16 DEBUG c.a.n.p.TrainingPersistenceService - Getting training by area: ATTENTION
+2018-07-14 10:39:16 DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2018-07-14 10:39:16 DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/neurorehab_app_schema?serverTimezone=UTC]
+2018-07-14 10:39:17 DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-07-14 10:39:17 DEBUG c.a.n.p.TrainingPersistenceService - Successfully found training: [com.app.neurorehab.persistence.model.TrainingPersistenceModel@15dc9d6d[reference=ref-99,title=This is an example game  title,description=This is an example description,creationDate=2012-03-08 01:00:00.0,rating=5,trainingArea=ATTENTION,accepted=false], com.app.neurorehab.persistence.model.TrainingPersistenceModel@73f9127c[reference=ref-919,title=This is an example game  title,description=This is an example description,creationDate=2012-03-08 01:00:00.0,rating=5,trainingArea=ATTENTION,accepted=false], com.app.neurorehab.persistence.model.TrainingPersistenceModel@441d8369[reference=ref-214,title=This is an example game  title,description=This is an example description,creationDate=2012-03-08 01:00:00.0,rating=5,trainingArea=ATTENTION,accepted=false], com.app.neurorehab.persistence.model.TrainingPersistenceModel@22ea3f5e[reference=ref-12,title=This is an example game  title,description=This is an example description,creationDate=2012-03-08 01:00:00.0,rating=5,trainingArea=ATTENTION,accepted=false], com.app.neurorehab.persistence.model.TrainingPersistenceModel@532cf99b[reference=ref-999,title=<null>,description=<null>,creationDate=<null>,rating=<null>,trainingArea=ATTENTION,accepted=false]]
+2018-07-14 10:39:17 DEBUG c.a.n.p.m.TrainingPersistenceMapper - Mapping from training persistence model to controller model
+2018-07-14 10:39:17 DEBUG c.a.n.p.m.TrainingPersistenceMapper - Successfully mapped from training persistence model to controller model
+2018-07-14 10:39:17 DEBUG c.a.n.p.m.TrainingPersistenceMapper - Mapping from training persistence model to controller model
+2018-07-14 10:39:17 DEBUG c.a.n.p.m.TrainingPersistenceMapper - Successfully mapped from training persistence model to controller model
+2018-07-14 10:39:17 DEBUG c.a.n.p.m.TrainingPersistenceMapper - Mapping from training persistence model to controller model
+2018-07-14 10:39:17 DEBUG c.a.n.p.m.TrainingPersistenceMapper - Successfully mapped from training persistence model to controller model
+2018-07-14 10:39:17 DEBUG c.a.n.p.m.TrainingPersistenceMapper - Mapping from training persistence model to controller model
+2018-07-14 10:39:17 DEBUG c.a.n.p.m.TrainingPersistenceMapper - Successfully mapped from training persistence model to controller model
+2018-07-14 10:39:17 DEBUG c.a.n.p.m.TrainingPersistenceMapper - Mapping from training persistence model to controller model
+2018-07-14 10:39:17 DEBUG c.a.n.p.m.TrainingPersistenceMapper - Successfully mapped from training persistence model to controller model
+2018-07-14 10:39:17 DEBUG c.a.n.service.TrainingService - Returning training found
+2018-07-14 10:39:17 DEBUG c.a.n.controller.TrainingController - Returning training options
+2018-07-14 10:39:17 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:39:17 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Written [[com.app.neurorehab.controller.model.TrainingControllerModel@5a68eb1a[reference=ref-12,title=This is an example game  title,description=This is an example description,creationDate=2012-03-08 01:00:00.0,rating=5,trainingArea=ATTENTION], com.app.neurorehab.controller.model.TrainingControllerModel@2906d52d[reference=ref-99,title=This is an example game  title,description=This is an example description,creationDate=2012-03-08 01:00:00.0,rating=5,trainingArea=ATTENTION], com.app.neurorehab.controller.model.TrainingControllerModel@18af4f8c[reference=ref-214,title=This is an example game  title,description=This is an example description,creationDate=2012-03-08 01:00:00.0,rating=5,trainingArea=ATTENTION], com.app.neurorehab.controller.model.TrainingControllerModel@1804396[reference=ref-999,title=<null>,description=<null>,creationDate=<null>,rating=<null>,trainingArea=ATTENTION], com.app.neurorehab.controller.model.TrainingControllerModel@1c2d4887[reference=ref-919,title=This is an example game  title,description=This is an example description,creationDate=2012-03-08 01:00:00.0,rating=5,trainingArea=ATTENTION]]] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:39:17 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:39:17 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:39:17 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:39:17 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:40:17 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:40:17 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:40:17 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:40:17 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:40:17 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:40:17 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'GET /logout
+2018-07-14 10:40:17 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:40:17 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'POST /logout
+2018-07-14 10:40:17 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:40:17 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'PUT /logout
+2018-07-14 10:40:17 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:40:17 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'DELETE /logout
+2018-07-14 10:40:17 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:40:17 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:40:17 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:40:17 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:40:17 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:40:17 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:40:17 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:40:17 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:40:17 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing OPTIONS request for [/neurorehabapp/api/auth/signin]
+2018-07-14 10:40:17 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/auth/signin
+2018-07-14 10:40:17 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<?> com.app.neurorehab.controller.AuthController.authenticateUser(com.app.neurorehab.controller.model.Request.LoginRequest)]
+2018-07-14 10:40:17 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authController'
+2018-07-14 10:40:17 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:40:17 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:40:17 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:40:17 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:40:17 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:40:18 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:40:18 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:40:18 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:40:18 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:40:18 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:40:18 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'GET /logout
+2018-07-14 10:40:18 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:40:18 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/api/auth/signin'; against '/logout'
+2018-07-14 10:40:18 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:40:18 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'PUT /logout
+2018-07-14 10:40:18 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:40:18 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'DELETE /logout
+2018-07-14 10:40:18 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:40:18 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:40:18 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:40:18 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:40:18 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:40:18 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:40:18 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:40:18 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:40:18 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing POST request for [/neurorehabapp/api/auth/signin]
+2018-07-14 10:40:18 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/auth/signin
+2018-07-14 10:40:18 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<?> com.app.neurorehab.controller.AuthController.authenticateUser(com.app.neurorehab.controller.model.Request.LoginRequest)]
+2018-07-14 10:40:18 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authController'
+2018-07-14 10:40:18 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.app.neurorehab.controller.model.Request.LoginRequest] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:40:18 DEBUG o.s.core.annotation.AnnotationUtils - Failed to meta-introspect annotation class com.sun.proxy.$Proxy220: java.lang.NoSuchMethodException: javax.validation.Valid.value()
+2018-07-14 10:40:18 DEBUG c.a.n.controller.AuthController - Signin request received
+2018-07-14 10:40:18 DEBUG o.s.s.authentication.ProviderManager - Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2018-07-14 10:40:18 DEBUG c.a.n.s.s.CustomUserDetailsService - Loading user by username: jossmtt123@hotmail.com
+2018-07-14 10:40:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByEmail]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-07-14 10:40:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 10:40:18 DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/neurorehab_app_schema?serverTimezone=UTC]
+2018-07-14 10:40:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5cda63f5]
+2018-07-14 10:40:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-07-14 10:40:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-07-14 10:40:18 DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2018-07-14 10:40:18 DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-07-14 10:40:18 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Generating token.
+2018-07-14 10:40:18 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Added user principal: jossmtt123@hotmail.com
+2018-07-14 10:40:18 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:40:18 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.app.neurorehab.controller.model.Jwt.JwtAuthenticationResponse@5101b705] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:40:18 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:40:18 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:40:18 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:40:18 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'GET /logout
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'POST /logout
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'PUT /logout
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'DELETE /logout
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:47:45 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:47:45 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing OPTIONS request for [/neurorehabapp/api/auth/signin]
+2018-07-14 10:47:45 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/auth/signin
+2018-07-14 10:47:45 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<?> com.app.neurorehab.controller.AuthController.authenticateUser(com.app.neurorehab.controller.model.Request.LoginRequest)]
+2018-07-14 10:47:45 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authController'
+2018-07-14 10:47:45 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:47:45 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:47:45 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:47:45 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:47:45 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'GET /logout
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/api/auth/signin'; against '/logout'
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'PUT /logout
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'DELETE /logout
+2018-07-14 10:47:45 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:47:45 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:47:45 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:47:45 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing POST request for [/neurorehabapp/api/auth/signin]
+2018-07-14 10:47:45 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/auth/signin
+2018-07-14 10:47:45 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<?> com.app.neurorehab.controller.AuthController.authenticateUser(com.app.neurorehab.controller.model.Request.LoginRequest)]
+2018-07-14 10:47:45 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authController'
+2018-07-14 10:47:45 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.app.neurorehab.controller.model.Request.LoginRequest] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:47:45 DEBUG o.s.core.annotation.AnnotationUtils - Failed to meta-introspect annotation class com.sun.proxy.$Proxy220: java.lang.NoSuchMethodException: javax.validation.Valid.value()
+2018-07-14 10:47:45 DEBUG c.a.n.controller.AuthController - Signin request received
+2018-07-14 10:47:45 DEBUG o.s.s.authentication.ProviderManager - Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2018-07-14 10:47:45 DEBUG c.a.n.s.s.CustomUserDetailsService - Loading user by username: jossmtt123@hotmail.com
+2018-07-14 10:47:45 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByEmail]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-07-14 10:47:45 DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 10:47:45 DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/neurorehab_app_schema?serverTimezone=UTC]
+2018-07-14 10:47:45 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@34f0691f]
+2018-07-14 10:47:45 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-07-14 10:47:45 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-07-14 10:47:45 DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2018-07-14 10:47:45 DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-07-14 10:47:46 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Generating token.
+2018-07-14 10:47:46 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Added user principal: jossmtt123@hotmail.com
+2018-07-14 10:47:46 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:47:46 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.app.neurorehab.controller.model.Jwt.JwtAuthenticationResponse@604f470a] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:47:46 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:47:46 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:47:46 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:47:46 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:51:40 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:51:40 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:51:40 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:51:40 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:51:40 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:51:40 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'GET /logout
+2018-07-14 10:51:40 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:51:40 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/api/auth/signin'; against '/logout'
+2018-07-14 10:51:40 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:51:40 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'PUT /logout
+2018-07-14 10:51:40 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:51:40 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'DELETE /logout
+2018-07-14 10:51:40 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:51:40 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:51:40 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:51:40 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:51:40 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:51:40 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:51:40 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:51:40 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:51:40 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing POST request for [/neurorehabapp/api/auth/signin]
+2018-07-14 10:51:40 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/auth/signin
+2018-07-14 10:51:40 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<?> com.app.neurorehab.controller.AuthController.authenticateUser(com.app.neurorehab.controller.model.Request.LoginRequest)]
+2018-07-14 10:51:40 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authController'
+2018-07-14 10:51:40 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.app.neurorehab.controller.model.Request.LoginRequest] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:51:40 DEBUG o.s.core.annotation.AnnotationUtils - Failed to meta-introspect annotation class com.sun.proxy.$Proxy220: java.lang.NoSuchMethodException: javax.validation.Valid.value()
+2018-07-14 10:51:40 DEBUG c.a.n.controller.AuthController - Signin request received
+2018-07-14 10:51:40 DEBUG o.s.s.authentication.ProviderManager - Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2018-07-14 10:51:40 DEBUG c.a.n.s.s.CustomUserDetailsService - Loading user by username: jossmtt123@hotmail.com
+2018-07-14 10:51:40 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByEmail]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-07-14 10:51:40 DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 10:51:40 DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/neurorehab_app_schema?serverTimezone=UTC]
+2018-07-14 10:51:41 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@205c2843]
+2018-07-14 10:51:41 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-07-14 10:51:41 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-07-14 10:51:41 DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2018-07-14 10:51:41 DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-07-14 10:51:41 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Generating token.
+2018-07-14 10:51:41 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Added user principal: jossmtt123@hotmail.com
+2018-07-14 10:51:41 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:51:41 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.app.neurorehab.controller.model.Jwt.JwtAuthenticationResponse@32d3507f] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:51:41 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:51:41 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:51:41 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:51:41 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:53:06 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:53:06 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:53:06 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:53:06 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:53:06 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:53:06 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'GET /logout
+2018-07-14 10:53:06 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:53:06 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/api/auth/signin'; against '/logout'
+2018-07-14 10:53:06 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:53:06 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'PUT /logout
+2018-07-14 10:53:06 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:53:06 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'DELETE /logout
+2018-07-14 10:53:06 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:53:06 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:53:06 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:53:06 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:53:06 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:53:06 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:53:06 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:53:06 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:53:06 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing POST request for [/neurorehabapp/api/auth/signin]
+2018-07-14 10:53:06 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/auth/signin
+2018-07-14 10:53:06 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<?> com.app.neurorehab.controller.AuthController.authenticateUser(com.app.neurorehab.controller.model.Request.LoginRequest)]
+2018-07-14 10:53:06 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authController'
+2018-07-14 10:53:06 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.app.neurorehab.controller.model.Request.LoginRequest] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:53:06 DEBUG o.s.core.annotation.AnnotationUtils - Failed to meta-introspect annotation class com.sun.proxy.$Proxy220: java.lang.NoSuchMethodException: javax.validation.Valid.value()
+2018-07-14 10:53:06 DEBUG c.a.n.controller.AuthController - Signin request received
+2018-07-14 10:53:06 DEBUG o.s.s.authentication.ProviderManager - Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2018-07-14 10:53:06 DEBUG c.a.n.s.s.CustomUserDetailsService - Loading user by username: jossmtt123@hotmail.com
+2018-07-14 10:53:06 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByEmail]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-07-14 10:53:06 DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 10:53:06 DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/neurorehab_app_schema?serverTimezone=UTC]
+2018-07-14 10:53:06 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@795b881d]
+2018-07-14 10:53:06 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-07-14 10:53:06 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-07-14 10:53:06 DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2018-07-14 10:53:06 DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-07-14 10:53:06 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Generating token.
+2018-07-14 10:53:06 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Added user principal: jossmtt123@hotmail.com
+2018-07-14 10:53:06 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:53:06 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.app.neurorehab.controller.model.Jwt.JwtAuthenticationResponse@742ae429] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:53:06 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:53:06 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:53:06 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:53:06 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:55:16 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:55:16 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:55:16 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:55:16 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:55:16 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:55:16 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'GET /logout
+2018-07-14 10:55:16 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:55:16 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/api/auth/signin'; against '/logout'
+2018-07-14 10:55:16 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:55:16 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'PUT /logout
+2018-07-14 10:55:16 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:55:16 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'DELETE /logout
+2018-07-14 10:55:16 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:55:16 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:55:16 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:55:16 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:55:16 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:55:16 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:55:16 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:55:16 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:55:16 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing POST request for [/neurorehabapp/api/auth/signin]
+2018-07-14 10:55:16 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/auth/signin
+2018-07-14 10:55:16 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<?> com.app.neurorehab.controller.AuthController.authenticateUser(com.app.neurorehab.controller.model.Request.LoginRequest)]
+2018-07-14 10:55:16 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authController'
+2018-07-14 10:55:16 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.app.neurorehab.controller.model.Request.LoginRequest] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:55:16 DEBUG o.s.core.annotation.AnnotationUtils - Failed to meta-introspect annotation class com.sun.proxy.$Proxy220: java.lang.NoSuchMethodException: javax.validation.Valid.value()
+2018-07-14 10:55:16 DEBUG c.a.n.controller.AuthController - Signin request received
+2018-07-14 10:55:16 DEBUG o.s.s.authentication.ProviderManager - Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2018-07-14 10:55:16 DEBUG c.a.n.s.s.CustomUserDetailsService - Loading user by username: jossmtt123@hotmail.com
+2018-07-14 10:55:16 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByEmail]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-07-14 10:55:16 DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 10:55:16 DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/neurorehab_app_schema?serverTimezone=UTC]
+2018-07-14 10:55:16 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5cbe3780]
+2018-07-14 10:55:16 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-07-14 10:55:16 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-07-14 10:55:16 DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2018-07-14 10:55:16 DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-07-14 10:55:16 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Generating token.
+2018-07-14 10:55:16 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Added user principal: jossmtt123@hotmail.com
+2018-07-14 10:55:16 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:55:16 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.app.neurorehab.controller.model.Jwt.JwtAuthenticationResponse@273317d4] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:55:16 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:55:16 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:55:16 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:55:16 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 10:57:14 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 10:57:14 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 10:57:14 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 10:57:14 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 10:57:14 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 10:57:14 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'GET /logout
+2018-07-14 10:57:14 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 10:57:14 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/api/auth/signin'; against '/logout'
+2018-07-14 10:57:14 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 10:57:14 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'PUT /logout
+2018-07-14 10:57:14 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 10:57:14 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'DELETE /logout
+2018-07-14 10:57:14 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 10:57:14 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 10:57:14 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 10:57:14 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 10:57:14 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 10:57:14 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 10:57:14 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 10:57:14 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin reached end of additional filter chain; proceeding with original chain
+2018-07-14 10:57:14 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing POST request for [/neurorehabapp/api/auth/signin]
+2018-07-14 10:57:14 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/auth/signin
+2018-07-14 10:57:14 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<?> com.app.neurorehab.controller.AuthController.authenticateUser(com.app.neurorehab.controller.model.Request.LoginRequest)]
+2018-07-14 10:57:14 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authController'
+2018-07-14 10:57:14 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.app.neurorehab.controller.model.Request.LoginRequest] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:57:14 DEBUG o.s.core.annotation.AnnotationUtils - Failed to meta-introspect annotation class com.sun.proxy.$Proxy220: java.lang.NoSuchMethodException: javax.validation.Valid.value()
+2018-07-14 10:57:14 DEBUG c.a.n.controller.AuthController - Signin request received
+2018-07-14 10:57:14 DEBUG o.s.s.authentication.ProviderManager - Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2018-07-14 10:57:14 DEBUG c.a.n.s.s.CustomUserDetailsService - Loading user by username: jossmtt123@hotmail.com
+2018-07-14 10:57:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByEmail]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-07-14 10:57:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 10:57:14 DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/neurorehab_app_schema?serverTimezone=UTC]
+2018-07-14 10:57:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1de4a601]
+2018-07-14 10:57:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-07-14 10:57:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-07-14 10:57:14 DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2018-07-14 10:57:14 DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-07-14 10:57:14 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Generating token.
+2018-07-14 10:57:14 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Added user principal: jossmtt123@hotmail.com
+2018-07-14 10:57:14 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 10:57:14 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.app.neurorehab.controller.model.Jwt.JwtAuthenticationResponse@563be3c0] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 10:57:14 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 10:57:14 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 10:57:14 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 10:57:14 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'GET /logout
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'POST /logout
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'PUT /logout
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /api/auth/signin' doesn't match 'DELETE /logout
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 11:02:29 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin reached end of additional filter chain; proceeding with original chain
+2018-07-14 11:02:29 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing OPTIONS request for [/neurorehabapp/api/auth/signin]
+2018-07-14 11:02:29 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/auth/signin
+2018-07-14 11:02:29 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<?> com.app.neurorehab.controller.AuthController.authenticateUser(com.app.neurorehab.controller.model.Request.LoginRequest)]
+2018-07-14 11:02:29 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authController'
+2018-07-14 11:02:29 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 11:02:29 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 11:02:29 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 11:02:29 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 11:02:29 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'GET /logout
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/api/auth/signin'; against '/logout'
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'PUT /logout
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'POST /api/auth/signin' doesn't match 'DELETE /logout
+2018-07-14 11:02:29 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 11:02:29 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 11:02:29 DEBUG o.s.security.web.FilterChainProxy - /api/auth/signin reached end of additional filter chain; proceeding with original chain
+2018-07-14 11:02:29 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing POST request for [/neurorehabapp/api/auth/signin]
+2018-07-14 11:02:29 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /api/auth/signin
+2018-07-14 11:02:29 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<?> com.app.neurorehab.controller.AuthController.authenticateUser(com.app.neurorehab.controller.model.Request.LoginRequest)]
+2018-07-14 11:02:29 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authController'
+2018-07-14 11:02:29 DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.app.neurorehab.controller.model.Request.LoginRequest] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 11:02:29 DEBUG o.s.core.annotation.AnnotationUtils - Failed to meta-introspect annotation class com.sun.proxy.$Proxy220: java.lang.NoSuchMethodException: javax.validation.Valid.value()
+2018-07-14 11:02:29 DEBUG c.a.n.controller.AuthController - Signin request received
+2018-07-14 11:02:29 DEBUG o.s.s.authentication.ProviderManager - Authentication attempt using org.springframework.security.authentication.dao.DaoAuthenticationProvider
+2018-07-14 11:02:29 DEBUG c.a.n.s.s.CustomUserDetailsService - Loading user by username: jossmtt123@hotmail.com
+2018-07-14 11:02:29 DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findByEmail]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+2018-07-14 11:02:29 DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+2018-07-14 11:02:29 DEBUG o.s.j.d.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/neurorehab_app_schema?serverTimezone=UTC]
+2018-07-14 11:02:29 DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@142cd3a3]
+2018-07-14 11:02:29 DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2018-07-14 11:02:29 DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-07-14 11:02:29 DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#20], EntityKey[com.app.neurorehab.persistence.model.ContributionPersistenceModel#24], EntityKey[com.app.neurorehab.persistence.model.RolePersistenceModel#1], EntityKey[com.app.neurorehab.persistence.model.TrainingPersistenceModel#10], EntityKey[com.app.neurorehab.persistence.model.UserPersistenceModel#32]],collectionKeys=[CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.rolePersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.contributionPersistenceModels#32], CollectionKey[com.app.neurorehab.persistence.model.UserPersistenceModel.trainingResultsPersistenceModels#32]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+2018-07-14 11:02:29 DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+2018-07-14 11:02:29 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Generating token.
+2018-07-14 11:02:29 DEBUG c.a.n.c.s.handlers.JwtTokenProvider - Added user principal: jossmtt123@hotmail.com
+2018-07-14 11:02:29 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 11:02:29 DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [com.app.neurorehab.controller.model.Jwt.JwtAuthenticationResponse@656ab12a] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7bf61e98]
+2018-07-14 11:02:29 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 11:02:29 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 11:02:29 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 11:02:29 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/user/profile/profile' doesn't match 'GET /logout
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/user/profile/profile' doesn't match 'POST /logout
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/user/profile/profile' doesn't match 'PUT /logout
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'OPTIONS /app/rest/user/profile/profile' doesn't match 'DELETE /logout
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 11:02:35 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile reached end of additional filter chain; proceeding with original chain
+2018-07-14 11:02:35 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing OPTIONS request for [/neurorehabapp/app/rest/user/profile/profile]
+2018-07-14 11:02:35 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /app/rest/user/profile/profile
+2018-07-14 11:02:35 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public com.app.neurorehab.controller.model.Response.ProfileResponseBody com.app.neurorehab.controller.UserInfoController.getUserProfile(java.lang.String,java.lang.String,org.springframework.security.core.Authentication)]
+2018-07-14 11:02:35 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userInfoController'
+2018-07-14 11:02:35 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 11:02:35 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 11:02:35 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 11:02:35 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 11:02:35 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 1 of 9 in additional filter chain; firing Filter: 'WebAsyncManagerIntegrationFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 2 of 9 in additional filter chain; firing Filter: 'SecurityContextPersistenceFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 3 of 9 in additional filter chain; firing Filter: 'HeaderWriterFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 4 of 9 in additional filter chain; firing Filter: 'LogoutFilter'
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', GET]
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Checking match of request : '/app/rest/user/profile/profile'; against '/logout'
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', POST]
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /app/rest/user/profile/profile' doesn't match 'POST /logout
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', PUT]
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /app/rest/user/profile/profile' doesn't match 'PUT /logout
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - Trying to match using Ant [pattern='/logout', DELETE]
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.m.AntPathRequestMatcher - Request 'GET /app/rest/user/profile/profile' doesn't match 'DELETE /logout
+2018-07-14 11:02:35 DEBUG o.s.s.w.u.matcher.OrRequestMatcher - No matches found
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 5 of 9 in additional filter chain; firing Filter: 'RequestCacheAwareFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 6 of 9 in additional filter chain; firing Filter: 'SecurityContextHolderAwareRequestFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 7 of 9 in additional filter chain; firing Filter: 'AnonymousAuthenticationFilter'
+2018-07-14 11:02:35 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Populated SecurityContextHolder with anonymous token: 'org.springframework.security.authentication.AnonymousAuthenticationToken@8e0e07f3: Principal: anonymousUser; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@b364: RemoteIpAddress: 0:0:0:0:0:0:0:1; SessionId: null; Granted Authorities: ROLE_ANONYMOUS'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 8 of 9 in additional filter chain; firing Filter: 'SessionManagementFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile at position 9 of 9 in additional filter chain; firing Filter: 'ExceptionTranslationFilter'
+2018-07-14 11:02:35 DEBUG o.s.security.web.FilterChainProxy - /app/rest/user/profile/profile reached end of additional filter chain; proceeding with original chain
+2018-07-14 11:02:35 DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'appDispatcher' processing GET request for [/neurorehabapp/app/rest/user/profile/profile]
+2018-07-14 11:02:35 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /app/rest/user/profile/profile
+2018-07-14 11:02:35 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public com.app.neurorehab.controller.model.Response.ProfileResponseBody com.app.neurorehab.controller.UserInfoController.getUserProfile(java.lang.String,java.lang.String,org.springframework.security.core.Authentication)]
+2018-07-14 11:02:35 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'userInfoController'
+2018-07-14 11:02:35 DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/neurorehabapp/app/rest/user/profile/profile] is: -1
+2018-07-14 11:02:35 DEBUG o.s.w.s.m.m.a.ServletInvocableHandlerMethod - Failed to resolve argument 0 of type 'java.lang.String'
+org.springframework.web.bind.ServletRequestBindingException: Missing request header 'Authorization' for method parameter of type String
+	at org.springframework.web.method.annotation.RequestHeaderMethodArgumentResolver.handleMissingValue(RequestHeaderMethodArgumentResolver.java:86)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.handleMissingValue(AbstractNamedValueMethodArgumentResolver.java:220)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:112)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:161)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:131)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:624)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:495)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:767)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1347)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-07-14 11:02:35 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolving exception from handler [public com.app.neurorehab.controller.model.Response.ProfileResponseBody com.app.neurorehab.controller.UserInfoController.getUserProfile(java.lang.String,java.lang.String,org.springframework.security.core.Authentication)]: org.springframework.web.bind.ServletRequestBindingException: Missing request header 'Authorization' for method parameter of type String
+2018-07-14 11:02:35 DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'globalExceptionHandler'
+2018-07-14 11:02:35 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Invoking @ExceptionHandler method: public final org.springframework.http.ResponseEntity<java.lang.Object> org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler.handleException(java.lang.Exception,org.springframework.web.context.request.WebRequest) throws java.lang.Exception
+2018-07-14 11:02:35 DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'appDispatcher': assuming HandlerAdapter completed request handling
+2018-07-14 11:02:35 DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+2018-07-14 11:02:35 DEBUG o.s.s.w.a.ExceptionTranslationFilter - Chain processed normally
+2018-07-14 11:02:35 DEBUG o.s.s.w.h.writers.HstsHeaderWriter - Not injecting HSTS header since it did not match the requestMatcher org.springframework.security.web.header.writers.HstsHeaderWriter$SecureRequestMatcher@428b91ad
+2018-07-14 11:02:35 DEBUG o.s.s.w.c.SecurityContextPersistenceFilter - SecurityContextHolder now cleared, as request processing completed

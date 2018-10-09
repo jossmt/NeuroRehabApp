@@ -1,0 +1,22 @@
+group 'neurorehabapp'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    //Spring security
+    compile group: 'org.springframework.security', name: 'spring-security-core', version: '5.0.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-web', version: '5.0.6.RELEASE'
+
+    //Logger
+    compile group: 'org.slf4j', name: 'jcl-over-slf4j', version: '1.7.25'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version:'1.1.2'
+}

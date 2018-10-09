@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Controller-Mapper_main" target="1.8" />
+      <module name="Controller-Mapper_test" target="1.8" />
+      <module name="Controller-Model_main" target="1.8" />
+      <module name="Controller-Model_test" target="1.8" />
+      <module name="Controller_main" target="1.8" />
+      <module name="Controller_test" target="1.8" />
+      <module name="Documents-neurorehabapp_main" target="1.8" />
+      <module name="Documents-neurorehabapp_test" target="1.8" />
+      <module name="Domain-Model_main" target="1.8" />
+      <module name="Domain-Model_test" target="1.8" />
+      <module name="neurorehabapp-neurorehabapp-neurorehabapp_main" target="1.8" />
+      <module name="neurorehabapp-neurorehabapp-neurorehabapp_test" target="1.8" />
+      <module name="neurorehabapp-neurorehabapp_main" target="1.8" />
+      <module name="neurorehabapp-neurorehabapp_test" target="1.8" />
+      <module name="neurorehabapp_main" target="1.8" />
+      <module name="neurorehabapp_test" target="1.8" />
+      <module name="Persistence-Mapper_main" target="1.8" />
+      <module name="Persistence-Mapper_test" target="1.8" />
+      <module name="Persistence-Model_main" target="1.8" />
+      <module name="Persistence-Model_test" target="1.8" />
+      <module name="Persistence_main" target="1.8" />
+      <module name="Persistence_test" target="1.8" />
+      <module name="Service_main" target="1.8" />
+      <module name="Service_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

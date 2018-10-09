@@ -1,0 +1,10 @@
+rootProject.name = 'Documents-neurorehabapp'
+include 'Controller'
+include 'Controller-Mapper'
+include 'Persistence'
+include 'Persistence-Mapper'
+include 'Service'
+include 'Controller-Model'
+include 'Persistence-Model'
+include 'Domain-Model'
+

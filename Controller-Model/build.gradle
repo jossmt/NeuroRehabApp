@@ -1,0 +1,36 @@
+group 'neurorehabapp'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':Domain-Model')
+    compile project(':Persistence-Model')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+
+    //Spring
+    compile group: 'org.springframework', name: 'spring-context', version: '5.0.6.RELEASE'
+    compile group: 'org.springframework', name: 'spring-web', version: '5.0.6.RELEASE'
+
+
+    //Apache commons
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+
+    //Jackson
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.8.9'
+
+    compile group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+
+
+    //Logger
+    compile group: 'org.slf4j', name: 'jcl-over-slf4j', version: '1.7.25'
+    compile group: 'ch.qos.logback', name: 'logback-classic', version:'1.1.2'
+}
